@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magyarország Utazási Útmutató - Főoldal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #2c3e50;
+      line-height: 1.7;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 35px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    nav {
+      text-align: center;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eef2f7;
+    }
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      padding: 10px 16px;
+      margin: 0 4px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-block;
+      transition: background 0.2s;
+    }
+    nav a:hover {
+      background-color: #eef2f7;
+    }
+    nav a.active {
+      background-color: #1b4332;
+      color: #ffffff;
+    }
+    h1 {
+      color: #1b4332;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    h2 {
+      color: #1b4332;
+      border-left: 5px solid #2d6a4f;
+      padding-left: 12px;
+      margin-top: 35px;
+    }
+    .welcome-text {
+      text-align: center;
+      font-size: 1.15em;
+      color: #2d6a4f;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: #ffffff;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 12px 16px;
+      text-align: left;
+    }
+    th {
+      background-color: #e8f5e9;
+      color: #1b4332;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    .image-box {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .image-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+    .image-caption {
+      display: block;
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #555;
+      font-style: italic;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .card {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 15px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2d6a4f;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #eef2f7;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <a href="1.html" class="active">Főoldal</a>
+      <a href="2.html">Látnivalók</a>
+      <a href="3.html">Gasztronómia és Fürdők</a>
+      <a href="4.html">Praktikus Tanácsok</a>
+    </nav>
+
+    <h1>Magyarország – Az Élmények Hazája</h1>
+    <p class="welcome-text">Üdvözöljük a hivatalos magyarországi turisztikai információs oldalon!</p>
+
+    <h2>Általános Bevezető és Földrajzi Elhelyezkedés</h2>
+    <p>
+      Magyarország Közép-Európában, a Kárpát-medence szívében terül el. Több mint ezeréves államiságával, gazdag történelmével és egyedülálló kultúrájával a régió egyik legizgalmasabb úti célja. Az országot átszeli Európa második leghosszabb folyója, a Duna, amely kettévágja a festői fővárost, Budapestet is.
+    </p>
+    <p>
+      Bár Magyarország területe viszonylag kicsi (93 030 km²), tájképi sokszínűsége egyedülálló: a nyugati szelíd dombvidékektől és a Balaton kék víztükrétől kezdve az Északi-középhegység sűrű erdőin át egészen az Alföld végtelen pusztaságáig számtalan természeti csodát rejt.
+    </p>
+
+    <div class="image-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Budapest_Parliament_over_Danube.jpg/640px-Budapest_Parliament_over_Danube.jpg" alt="A budapesti Országház">
+      <span class="image-caption">A budapesti Országház a Duna partján – az ország egyik legismertebb jelképe</span>
+    </div>
+
+    <h2>Főbb Adatok Magyarországról</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Megnevezés</th>
+          <th>Részletes Adat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Főváros</b></td>
+          <td>Budapest (kb. 1,7 millió lakos)</td>
+        </tr>
+        <tr>
+          <td><b>Államforma</b></td>
+          <td>Parlamentáris köztársaság</td>
+        </tr>
+        <tr>
+          <td><b>Hivatalos nyelv</b></td>
+          <td>Magyar (az finnugor nyelvcsalád tagja)</td>
+        </tr>
+        <tr>
+          <td><b>Pénznem</b></td>
+          <td>Magyar Forint (HUF)</td>
+        </tr>
+        <tr>
+          <td><b>Lakosság</b></td>
+          <td>kb. 9,6 millió fő</td>
+        </tr>
+        <tr>
+          <td><b>EU és Schengen tagság</b></td>
+          <td>2004 óta az EU, 2007 óta a Schengeni övezet tagja</td>
+        </tr>
+        <tr>
+          <td><b>Időzóna</b></td>
+          <td>CET (UTC+1) / Nyáron CEST (UTC+2)</td>
+        </tr>
+        <tr>
+          <td><b>Nemzetközi hívószám</b></td>
+          <td>+36</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Miért Érdemes ideutazni?</h2>
+    <ul>
+      <li><b>Gazdag Történelmi Örökség:</b> Római kori romok, középkori várak, török hódoltsági emlékek és pompás barokk valamint szecessziós paloták várják a látogatókat.</li>
+      <li><b>Európa Fürdőfővárosa:</b> Magyarország alatt található a világ egyik legjelentősebb termálvízkészlete. Több mint 1500 termálforrás és 200 gyógyfürdő működik az országban.</li>
+      <li><b>Világhírű Konyha és Borok:</b> A fűszerpaprikával készült tradicionális ételek, a lángos és a világhírű borvidékek (Tokaj, Villány, Eger) felejthetetlen kulináris élményt nyújtanak.</li>
+      <li><b>Vendégszeretet és Biztonság:</b> Magyarország a világ egyik legbiztonságosabb országa, ahol a helyiek szívélyes fogadtatása garantált.</li>
+    </ul>
+
+    <h2>Évszakok Szerinti Utazási Útmutató</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Tavasz</h3>
+        <p>Tökéletes időszak városnézéshez, a virágzó természet felfedezéséhez és a Budapesti Tavaszi Fesztivál programjaihoz.</p>
+      </div>
+      <div class="card">
+        <h3>Nyár</h3>
+        <p>A balatoni strandolás, a vitorlázás, a szabadtéri koncertsorozatok és a Sziget Fesztivál fő szezonja.</p>
+      </div>
+      <div class="card">
+        <h3>Ősz</h3>
+        <p>A szüreti mulatságok, borfesztiválok ideje, valamint ideális időjárás a hegyvidéki túrázáshoz a Bükkben és a Mátrában.</p>
+      </div>
+      <div class="card">
+        <h3>Tél</h3>
+        <p>Varázslatos adventi vásárok Budapesten és Szegeden, korcsolyázás a Városligeti Műjégpályán és forró termálfürdőzés.</p>
+      </div>
+    </div>
+
+    <h2>Híres Magyar Találmányok és Értékek</h2>
+    <p>
+      Magyarország számos olyan tudóst és feltalálót adott a világnak, akiknek találmányait ma is nap mint nap használjuk. Kiemelkedő példák:
+    </p>
+    <ul>
+      <li><b>Golyóstoll:</b> Bíró László József találmánya (angolul sok helyen csak <i>Biro</i>).</li>
+      <li><b>Rubik-kocka:</b> Rubik Ernő által 1974-ben megalkotott világhírű logikai játék.</li>
+      <li><b>C-vitamin:</b> Szent-Györgyi Albert fedezte fel a szegedi paprikában, amiért Nobel-díjat kapott.</li>
+      <li><b>Biztonsági gyufa:</b> Irinyi János találmánya 1836-ból.</li>
+    </ul>
+
+    <div class="image-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Visegrad_Castle_and_Danube_Bend.jpg/640px-Visegrad_Castle_and_Danube_Bend.jpg" alt="A Dunakanyar panorámája">
+      <span class="image-caption">A festői Dunakanyar panorámája a Visegrádi Fellegvárból</span>
+    </div>
+
+    <footer>
+      Készítette: Nagy Ábel &nbsp;|&nbsp; Utazási Útmutató 2026 &nbsp;|&nbsp; 1. oldal
+    </footer>
+  </div>
+
+</body>
+</html>

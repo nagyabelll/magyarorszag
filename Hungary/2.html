@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Látnivalók Magyarországon</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #2c3e50;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    nav {
+      text-align: center;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #eef2f7;
+    }
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      padding: 8px 14px;
+      margin: 0 4px;
+      border-radius: 6px;
+      font-weight: 600;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #eef2f7;
+    }
+    nav a.active {
+      background-color: #1b4332;
+      color: #ffffff;
+    }
+    h1 {
+      color: #1b4332;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #1b4332;
+      border-left: 4px solid #27ae60;
+      padding-left: 10px;
+      margin-top: 30px;
+    }
+    .item-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+    .item-card img {
+      width: 150px;
+      height: 105px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .item-text h3 {
+      margin: 0 0 5px 0;
+      color: #1b4332;
+      font-size: 1.1em;
+    }
+    .item-text p {
+      margin: 0;
+      font-size: 0.95em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    th {
+      background-color: #e8f5e9;
+      color: #1b4332;
+    }
+    tr:nth-child(even) {
+      background-color: #f8fafc;
+    }
+    footer {
+      margin-top: 35px;
+      padding-top: 15px;
+      border-top: 1px solid #eef2f7;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+    @media (max-width: 600px) {
+      .item-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .item-card img {
+        width: 100%;
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <a href="1.html">Főoldal</a>
+      <a href="2.html" class="active">Látnivalók</a>
+      <a href="3.html">Gasztronómia és Fürdők</a>
+      <a href="4.html">Praktikus Tanácsok</a>
+    </nav>
+
+    <h1>Legszebb Magyarországi Látnivalók</h1>
+    <p class="subtitle">Az ország legnépszerűbb városai és természeti értékei röviden.</p>
+
+    <h2>Top 6 Kötelező Úti Cél</h2>
+
+    <div class="item-card">
+      <img src="budapest.jpg" alt="Budapest és a Halászbástya">
+      <div class="item-text">
+        <h3>1. Budapest</h3>
+        <p>A főváros főbb nevezetességei a Budai Várnegyed, a Halászbástya, a Lánchíd és a Duna-parti Országház.</p>
+      </div>
+    </div>
+
+    <div class="item-card">
+      <img src="balaton.jpg" alt="Balaton és a Tihanyi Apátság">
+      <div class="item-text">
+        <h3>2. Balaton és Tihany</h3>
+        <p>Közép-Európa legnagyobb tava remek strandokkal, a tihanyi Bencés Apátsággal és nyári levendulásokkal.</p>
+      </div>
+    </div>
+
+    <div class="item-card">
+      <img src="eger.jpg" alt="Egri Vár">
+      <div class="item-text">
+        <h3>3. Eger</h3>
+        <p>Történelmi váráról, barokk belvárosáról, a török minaretről és a Szépasszony-völgy borospincéiről híres.</p>
+      </div>
+    </div>
+
+    <div class="item-card">
+      <img src="pecs.jpg" alt="Pécs belvárosa">
+      <div class="item-text">
+        <h3>4. Pécs</h3>
+        <p>Mediterrán hangulatú város UNESCO világörökségi ókeresztény sírkamrákkal és a Zsolnay Negyeddel.</p>
+      </div>
+    </div>
+
+    <div class="item-card">
+      <img src="hortobagy.jpg" alt="Hortobágyi Kilenclyukú híd">
+      <div class="item-text">
+        <h3>5. Hortobágyi Nemzeti Park</h3>
+        <p>A magyar puszta otthona, ahol a Kilenclyukú híd, a szürkemarhák és a hagyományos pásztorélet látható.</p>
+      </div>
+    </div>
+
+    <div class="item-card">
+      <img src="dunakanyar.jpg" alt="Dunakanyar és Visegrád">
+      <div class="item-text">
+        <h3>6. Dunakanyar (Visegrád)</h3>
+        <p>A Duna festői kanyarulata, amelyre a Visegrádi Fellegvárból nyílik az egyik legszebb panoráma.</p>
+      </div>
+    </div>
+
+    <h2>Regionális Áttekintés</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Régió</th>
+          <th>Kiemelt Helyszín</th>
+          <th>Fő Vonzereje</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Észak-Magyarország</b></td>
+          <td>Miskolctapolca, Tokaj</td>
+          <td>Barlangfürdő és világhírű borvidék</td>
+        </tr>
+        <tr>
+          <td><b>Dunántúl</b></td>
+          <td>Tihany, Sopron, Hévíz</td>
+          <td>Balaton, történelmi belváros és gyógytó</td>
+        </tr>
+        <tr>
+          <td><b>Alföld</b></td>
+          <td>Szeged, Debrecen</td>
+          <td>Dóm tér, Nagytemplom és napsütéses klíma</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      Készítette: Nagy Ábel &nbsp;|&nbsp; Utazási Útmutató 2026 &nbsp;|&nbsp; 2. oldal
+    </footer>
+  </div>
+
+</body>
+</html>
